@@ -58,9 +58,13 @@
         }
 
         .logo {
-            font-weight: 700;
-            font-size: 1.25rem;
-            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 130px;
+            width: auto;
         }
 
         .nav-links {
@@ -201,7 +205,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 4rem;
+            overflow: hidden;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .about-content h3 {
@@ -486,7 +496,7 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <div class="logo">JR</div>
+            <div class="logo"><img src="logo_jlr.png" alt="Jose Luis Resendiz"></div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -514,8 +524,7 @@
     <section id="about">
         <div class="about-grid">
             <div class="about-image">
-                <!-- Replace with your image -->
-                <span>JR</span>
+                <img src="logo_jlr.png" alt="Jose Luis Resendiz">
             </div>
             <div class="about-content">
                 <div class="section-header">
